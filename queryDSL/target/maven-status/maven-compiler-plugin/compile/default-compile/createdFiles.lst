@@ -1,0 +1,10 @@
+com\example\querydsl\repository\MemberRepository.class
+com\example\querydsl\repository\FoodStoreRepository.class
+com\example\querydsl\domain\QFoodType.class
+com\example\querydsl\domain\FoodStore.class
+com\example\querydsl\QueryDslApplication.class
+com\example\querydsl\domain\Member.class
+com\example\querydsl\domain\QMember.class
+com\example\querydsl\domain\QFoodStore.class
+com\example\querydsl\repository\FoodTypeRepository.class
+com\example\querydsl\domain\FoodType.class
