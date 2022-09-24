@@ -1,0 +1,24 @@
+server:
+  port: 9090
+
+spring:
+
+
+  # ??? ?? ??
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:tcp://localhost/~/test
+    username: sa
+    password:
+
+  # JPA ??
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect # generate ??? ??
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      ddl-auto: create  #create? update? ??.
+      use-new-id-generator-mappings: false
+    properties:
+      hibernate.format_sql: true
